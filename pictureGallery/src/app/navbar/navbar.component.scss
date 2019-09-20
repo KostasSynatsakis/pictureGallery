@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import '../../styles.scss';
 
 
 header {
     font-family: 'Raleway', sans-serif;
 
     a:hover {
-        font-size: 110%;
+        @include hoverScale(100%);
     }
     a.navbar-brand {
         font-size: 200%;
         font-weight: bold;
         &:hover{
-            font-size: 210%; 
+            @include hoverScale(200%); 
         }
     }
 }

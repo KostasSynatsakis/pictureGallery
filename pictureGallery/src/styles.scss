@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+// color pallette
+$primary: rgb(22, 69, 100);
+
+
+// mixins
+
+@mixin hoverScale($size){
+    font-size: $size + 10%;
+}
