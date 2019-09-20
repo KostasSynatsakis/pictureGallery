@@ -8,4 +8,5 @@ $primary: rgb(22, 69, 100);
 
 @mixin hoverScale($size){
     font-size: $size + 10%;
+    transition: .4s;
 }
