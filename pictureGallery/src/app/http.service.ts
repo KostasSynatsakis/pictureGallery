@@ -9,6 +9,6 @@ export class HttpService {
   constructor(private http: HttpClient) { }
 
   getPhotos() {
-    return this.http.get('https://api.openbrewerydb.org/breweries');
+    return this.http.get('https://picsum.photos/v2/list');
   }
 }
