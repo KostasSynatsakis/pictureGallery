@@ -1,7 +1,14 @@
-<ul *ngIf="images">
+<ul class="d-flex flex-row flex-wrap" *ngIf="images">
     <li *ngFor="let image of images">
-      <p class="id">{{ image.id }}</p>
-      <p class="author">{{ image.author }}</p>
-      <img src="https://picsum.photos/id/{{ image.id }}/200" alt="">
+      <div class="card" style="width: 18rem;">
+        <img src="https://picsum.photos/id/{{ image.id }}/200" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{image.author}}</h5>
+          <p class="card-text">{{image.width}}x{{image.height}} px</p>
+        </div>
+        <div class="card-body">
+          <a href="{{image.download_url}}" class="card-link">Download</a>
+        </div>
+      </div>
     </li>
   </ul>

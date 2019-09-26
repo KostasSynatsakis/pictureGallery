@@ -3,6 +3,7 @@
 
 header {
     font-family: 'Raleway', sans-serif;
+    max-height: 4.5em;
 
     a:hover {
         @include hoverScale(100%);
