@@ -15,7 +15,7 @@ export class GalleryComponent implements OnInit {
   constructor(private _http: HttpService) { }
 
   ngOnInit() {
-    this._http.getPhotos().subscribe(data => {
+    this._http.getPhotos(10).subscribe(data => {
       this.images = data;
       console.log(this.images);
     });

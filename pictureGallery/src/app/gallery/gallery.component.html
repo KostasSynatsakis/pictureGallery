@@ -2,6 +2,6 @@
     <li *ngFor="let image of images">
       <p class="id">{{ image.id }}</p>
       <p class="author">{{ image.author }}</p>
-      <a class="url" href="{{ image.url }}">site</a>
+      <img src="https://picsum.photos/id/{{ image.id }}/200" alt="">
     </li>
   </ul>
