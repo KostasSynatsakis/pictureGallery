@@ -10,6 +10,8 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { RandomPicComponent } from './random-pic/random-pic.component';
 import { FooterComponent } from './footer/footer.component';
+import { InfoComponent } from './info/info.component';
+import { SubscribeComponent } from './subscribe/subscribe.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { FooterComponent } from './footer/footer.component';
     GalleryComponent,
     CarouselComponent,
     RandomPicComponent,
-    FooterComponent
+    FooterComponent,
+    InfoComponent,
+    SubscribeComponent
   ],
   imports: [
     BrowserModule,
