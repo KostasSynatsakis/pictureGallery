@@ -8,6 +8,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { RandomPicComponent } from './random-pic/random-pic.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { CarouselComponent } from './carousel/carousel.component';
     NavbarComponent,
     HomeComponent,
     GalleryComponent,
-    CarouselComponent
+    CarouselComponent,
+    RandomPicComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
