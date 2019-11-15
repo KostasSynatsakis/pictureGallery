@@ -1,0 +1,13 @@
+#random-pic {
+  height: 40vh;
+  .bg {
+height: 100%;
+    img {
+      position: absolute;
+      top: -5em;
+      transform: rotate(10deg);
+      box-shadow: 10px 10px 5px grey;
+    }
+  }
+
+}
