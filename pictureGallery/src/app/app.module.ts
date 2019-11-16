@@ -12,6 +12,8 @@ import { RandomPicComponent } from './random-pic/random-pic.component';
 import { FooterComponent } from './footer/footer.component';
 import { InfoComponent } from './info/info.component';
 import { SubscribeComponent } from './subscribe/subscribe.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { SubscribeComponent } from './subscribe/subscribe.component';
     RandomPicComponent,
     FooterComponent,
     InfoComponent,
-    SubscribeComponent
+    SubscribeComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
